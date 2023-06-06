@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "7f24ebdd-2c7e-43c5-92e4-c1332ae5b72d",
+  "alias": "GetsplistharshWebPart",
+  "componentType": "WebPart",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "getsplistharsh" },
+    "description": { "default": "getsplistharsh description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "getsplistharsh"
+    }
+  }]
+}

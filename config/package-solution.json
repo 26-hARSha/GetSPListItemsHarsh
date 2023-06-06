@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-sp-list-item-harsh-client-side-solution",
+    "id": "165f07d6-4424-4ac4-b91f-9676304850c5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GetSPListItemHarsh description"
+      },
+      "longDescription": {
+        "default": "GetSPListItemHarsh description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "get-sp-list-item-harsh Feature",
+        "description": "The feature that activates elements of the get-sp-list-item-harsh solution.",
+        "id": "3dad2505-79d1-479c-b0b6-864e90c075db",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/get-sp-list-item-harsh.sppkg"
+  }
+}

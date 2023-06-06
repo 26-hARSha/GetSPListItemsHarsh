@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-list-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spListItems/SpListItemsWebPart.js",
+          "manifest": "./src/webparts/spListItems/SpListItemsWebPart.manifest.json"
+        }
+      ]
+    },
+    "getsplistharsh-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getsplistharsh/GetsplistharshWebPart.js",
+          "manifest": "./src/webparts/getsplistharsh/GetsplistharshWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpListItemsWebPartStrings": "lib/webparts/spListItems/loc/{locale}.js",
+    "GetsplistharshWebPartStrings": "lib/webparts/getsplistharsh/loc/{locale}.js"
+  }
+}
